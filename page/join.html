@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatable" content="IE-Egde">
+	<meta name="author" content="portfolio_bose">
+	<title>Bose - 회원가입 </title>
+	<meta name="description" content="Bose - Better Sound Through Research 보스에서 헤드폰, 이어폰, 스피코 및 악세서리를 쇼핑하세요. 보스의 강력한 사운드와 오디오 기술을 경험하실 수 있습니다.">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/moblie_common.css" media="screen and (max-width: 850px)">
+	<link rel="stylesheet" href="../css/join.css" media="screen and (min-width : 851px)">
+
+
+	<script src="../js/swiper.js"></script>
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/jquery-ui.min.js"></script>
+	<script src="../js/jquery.easing.1.3.js"></script>
+	<script src="../js/common.js"></script>
+
+</head>
+
+<body class="join">
+	<div id="wraper">
+		<a href="#main" id="skip_nav">본문 바로가기</a>
+		<header>
+			<div class="inner_header">
+				<h1><a href="main.html"><img src="../img/logo_white.png" alt="보스상단로고">로고</a></h1>
+				<a href="#" class="menu mobile"><span>메뉴열기닫기</span></a>
+				<div class="gnb_box pc">
+					<div>
+						<ul>
+							<li><a href="#">로그인</a></li>
+							<li><a href="join.html">회원가입</a></li>
+							<li><a href="#">마이페이지</a></li>
+							<li><a href="#">주문 배송조회</a></li>
+						</ul>
+					</div>
+					<nav>
+						<ul>
+							<li>
+								<a href="#"><span></span>Headphones</a>
+								<ul>
+									<li><a href="#">In-ear</a></li>
+									<li><a href="#">Bluetooth Headphones</a></li>
+									<li><a href="products.html">Nosie Cancelling</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#"><span></span>Speaker</a>
+								<ul>
+									<li><a href="#">Bluetooth speaker</a></li>
+									<li><a href="#">Computerspeaker</a></li>
+
+								</ul>
+							</li>
+							<li>
+								<a href="#"><span></span>System</a>
+								<ul>
+									<li><a href="#">Home Theater</a></li>
+									<li><a href="#">Wave System</a></li>
+									<li><a href="#">Touch System</a></li>
+								</ul>
+							</li>
+							<li >
+								<a href="#"><span></span>Support</a>
+								<ul>
+									<li><a href="#">공지사항</a></li>
+									<li><a href="#">FQA</a></li>
+									<li><a href="contact.html">1:1문의</a></li>
+									<li><a href="#">서비스센터안내</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="header_icon">
+							<a href="#" title="장바구니">shopping</a>
+							<a href="#" title="찾기">search</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="mobile_menu mobile">
+				<div class="inner_search">
+					<input type="search" placeholder="search">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+				<ul>
+					<li><a href="#">PRODUCTS</a></li>
+					<li><a href="#">SUPORT</a></li>
+					<li><a href="#">STORE</a></li>
+				</ul>
+			</div>
+			<!--//mobile_menu-->
+		</header>
+		<!--//header_pc-->
+		<main id="main">
+			<div class="join_bg"><span class="area-hidden">회원가입배경이미지</span></div>
+			<section class="join_inner">
+					<h2 class="title">회원가입</h2>
+					<p class="desc">회원가입 정보를 입력해 주세요.</p>
+
+					<table class="form">
+						<tr>
+							<td class="th"><label for="id">아이디</label></td>
+							<td>
+								<input type="text" name="id" id="id" class="text with_btn" placeholder="아이디">
+								<a href="#" class="btn small gray" title="중복확인버튼">중복확인</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th"><label for="pw">비밀번호</label></td>
+							<td><input type="password" name="pw" id="pw" class="text" placeholder="비밀번호"></td>
+						</tr>
+						<tr>
+							<td class="th"><label for="pw2">비밀번호(확인)</label></td>
+							<td><input type="password" name="pw2" id="pw2" class="text"></td>
+						</tr>
+						<tr>
+							<td class="th"><label for="user_name">이름</label></td>
+							<td><input type="text" name="user_nm" id="user_name" placeholder="이름" class="text"></td>
+						</tr>
+						<tr>
+							<td class="th"><label for="user_date">생년월일</label></td>
+							<td><input type="date" id="user_date" value="2018-05-10" min="1900-01-01" max="2018-12-31" placeholder="생년월일" class="text"></td>
+						</tr>
+						<tr>
+							<td class="th"><label for="email">이메일</label></td>
+							<td>
+							   <input type="email" id="email" placeholder="이메일" class="text with_btn ">@
+								<select id="br_hosting">
+                                  <option value="email">직접입력</option>
+                                  <option value="naver.com">naver.com</option>
+                                  <option value="hanmail.net">hanmail.net</option>
+                                  <option value="nate.com">nate.com</option>
+                                  <option value="gmail.com">gmail.com</option>
+                                  <option value="hotmail.com">hotmail.com</option>
+                                  <option value="yahoo.com">yahoo.com</option>
+                              </select>
+                              <a href="#" class="btn small gray" title="중복확인버튼">중복확인</a>
+                              <input type="checkbox" id="info">메일정보수신
+							</td>
+						</tr>
+						<tr>
+							<td class="th"><label for="address">주소</label></td>
+							<td>
+							 <input type="text" id="address" title="주소" class="text phone"> - <input type="text" id="address" title="주소" class="text phone">
+							 <a href="#" class="btn small gray" title="중복확인버튼">우편확인</a>
+							 </td>
+						</tr>
+						<tr>
+							<td class="th">전화</td>
+							<td>
+								<select id="tel" class="text phone">
+                                  <option value="010">010</option>
+                                  <option value="011">011</option>
+                                  <option value="016">016</option>
+                                </select>
+								<input type="password" name="" id="tel2" class="text phone">-
+								<input type="password" name="" id="tel3" class="text phone">
+								<input type="checkbox" id="user_tel_ok">문자서비스 체크
+							</td>
+						</tr>
+					</table>
+					<div class="chk_info">
+					  <div>
+					    <label for="chk1"><input type="checkbox" id="chk1">개인정보호를 위한 이용자 동의사항</label>
+                        <a href="#click" class="info_btn " title="개인정보내용보기버튼">내용보기</a>
+                      </div>
+                      <div>
+					    <label for="chk2"><input type="checkbox" id="chk2">이용약관</label>
+                        <a href="#click" class="info_btn " title="이용약관내용버튼">내용보기</a>
+                      </div>
+					</div>
+					<div class="button center">
+						<a href="#" class="btn big gray">취소하기</a>
+						<a href="#" class="btn big gray">확인</a>
+					</div>
+			</section>
+		</main>
+		<!--//main-->
+
+		<footer class="pc">
+			<div class="footer_inner">
+				<div class="footer_logo">하단로고</div>
+				<address>
+                 주소 서울시 강남구 삼성로 730 사업자등록번호 203 - 81- 38195 통신판매신고번호: 강남 1914호
+                 개인정보관리자: 김석기 대표자:김형준 <br />
+                 상호명:(주)세기HE 전화번호:02-3446-3003 팩스번호:02-3446-3004 메일:bosepa@sekihe.co.kr
+             </address>
+				<div class="footer_sns">
+					<strong>Fllow us</strong>
+					<div class="sns_inner">
+						<a href="#" title="페이스북"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+						<a href="#" title="트위터"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+						<a href="#" title="인스타"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#" title="유튜브"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<!--//footer_sns-->
+				<div class="footer_lang">
+					<strong>Location</strong>
+					<select id="lang">
+                         <option value="ko">한국어</option>
+                         <option value="en">English</option>
+                         <option value="jp">日本語</option>
+                         <option value="ch">中國語</option>
+                </select>
+				</div>
+				<!--//footer_lang-->
+				<p>Copyright &copy; 2018 mc2918 All rights reserved</p>
+			</div>
+		</footer>
+		<!--//footer_pc-->
+		<footer class="mobile">
+			<div class="footer_inner">
+				<div class="footer_logo">하단로고</div>
+				<address>
+                 주소 서울시 강남구 삼성로 730 사업자등록번호 203 - 81- 38195 통신판매신고번호: 강남 1914호
+                 개인정보관리자: 김석기 대표자:김형준 <br />
+                 상호명:(주)세기HE 전화번호:02-3446-3003 팩스번호:02-3446-3004 메일:bosepa@sekihe.co.kr
+             </address>
+				<div class="footer_sns">
+					<strong>Fllow us</strong>
+					<div class="sns_inner">
+						<a href="#" title="페이스북"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+						<a href="#" title="트위터"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+						<a href="#" title="인스타"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#" title="유튜브"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<!--//footer_sns-->
+				<p>Copyright &copy; 2018 mc2918 All rights reserved</p>
+			</div>
+		</footer>
+		<a href="#" class="topbtn"><i class="fa fa-angle-up" aria-hidden="true"></i>TOP</a>
+	</div>
+</body>
+
+</html>
